@@ -51,3 +51,38 @@ h2+button {
 footer>a {
     color: #457b9d;
 }
+
+input[type="password"] {
+    color: greenyellow;
+}
+
+/* 
+section[class="post"] {
+    color: #234d33;
+    background-color: purple;
+} */
+
+/* a[href*="google"] {
+    color: magenta;
+} */
+
+.post button:hover {
+    background-color: #e6cc33;
+    color: #f1faee;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #3222ee;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #f1fffe;
+}
