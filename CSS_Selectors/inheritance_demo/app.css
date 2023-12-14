@@ -1,12 +1,24 @@
-* {
-    background-color: cyan;
+body {
+    color: purple;
+}
+
+h1 {
+    color: blue;
+}
+
+/* 
+section {
+    color: aqua;
+} */
+
+form {
+    color: green;
 }
 
 button {
-    font-size: 30px;
+    color: inherit;
 }
 
-h1,
-h2 {
-    color: darkblue;
+input {
+    color: inherit;
 }

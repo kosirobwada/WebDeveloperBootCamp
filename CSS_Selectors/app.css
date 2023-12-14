@@ -86,3 +86,19 @@ section[class="post"] {
 .post:nth-of-type(2n) {
     background-color: #f1fffe;
 }
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: palegreen;
+}
+
+p::selection {
+    background-color: sandybrown;
+}
+
+button:hover {
+    color: olive;
+}
