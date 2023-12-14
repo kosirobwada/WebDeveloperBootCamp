@@ -3,7 +3,7 @@ h1 {
     font-weight: 400;
     text-decoration: #22dd33 underline wavy;
     letter-spacing: 15px;
-    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
