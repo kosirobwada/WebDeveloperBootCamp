@@ -15,3 +15,48 @@ h1 {
     border: 1px solid black;
     line-height: 200%;
 }
+
+h2 {
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+article {
+    font-size: 15px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #2e9d8f;
+    color: #ffffff;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+#rems h2 {
+    font-size: 3rem;
+}
+
+#rems h3 {
+    font-size: 3rem;
+}
+
+#rems ul {
+    font-size: 0.8rem;
+}
+
+html {
+    font-size: 30px;
+}
