@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    flex-direction: row;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-content: space-between; */
+}
+
+#container div {
+    width: 200px;
+    height: 200px;
+    flex-basis: 200px;
+}
+
+div:nth-of-type(1) {
+    flex-grow: 1;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: purple;
+    flex: 1 1 300px;
+    border: 2px solid white;
+}
+
+main .maincontent {
+    background-color: cyan;
+    flex: 2 1 800px;
+}
