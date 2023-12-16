@@ -18,4 +18,6 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・CSSボックスモデルと値の位置  
 　計356分  
 ### 20231216
-・その他のCSSプロパティ
+・その他のCSSプロパティ  
+・レスポンシブCSSとFlex  
+　計188分
