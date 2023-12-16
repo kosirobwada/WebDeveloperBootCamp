@@ -17,4 +17,5 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・CSSセレクタの世界
 ・CSSボックスモデルと値の位置  
 　計356分  
-###
+### 20231216
+・その他のCSSプロパティ
