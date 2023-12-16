@@ -1,0 +1,13 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 100;
+}
