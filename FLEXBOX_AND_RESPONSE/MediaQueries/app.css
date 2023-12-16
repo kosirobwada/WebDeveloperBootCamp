@@ -5,13 +5,24 @@ h1 {
 
 nav {
     font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 ul,
 li {
     display: inline;
     margin: 0;
     padding: 0;
+}
+
+ul {
+    border: 1px solid red;
+    flex: 1;
+    max-width: 50px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media (max-width: 1500px) {
@@ -29,5 +40,26 @@ li {
 @media(max-width: 500px) {
     h1 {
         color: purple;
+    }
+}
+
+@media(max-width:768px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media(max-width:576px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
     }
 }
