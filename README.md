@@ -23,4 +23,4 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 　計188分
 ### 20231217
 ・価格表パネルを作ってみよう  
-  計28分
+　計28分
