@@ -24,3 +24,7 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ### 20231217
 ・価格表パネルを作ってみよう  
 　計28分
+### 20231220  
+・Bootstrap  
+・「Museum of Candy」のプロジェクト  
+　計199分
