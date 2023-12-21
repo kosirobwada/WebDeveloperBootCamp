@@ -28,3 +28,8 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・Bootstrap  
 ・「Museum of Candy」のプロジェクト  
 　計199分
+### 20231221  
+・JavaScriptの基本  
+・JavaScriptのStringなどなど  
+・JavaScriptでの条件分岐  
+　計189分  
