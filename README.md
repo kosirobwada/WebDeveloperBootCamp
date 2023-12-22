@@ -33,3 +33,7 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・JavaScriptのStringなどなど  
 ・JavaScriptでの条件分岐  
 　計189分  
+### 20231222
+・JavaScriptの配列  
+・JavaScriptのオブジェクト  
+　計92分  
