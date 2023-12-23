@@ -340,6 +340,26 @@ const animals = [
 //     console.log(i, animals[i]);
 // }
 
-for (let i = animals.length - 1; i >= 0; i--) {
-    console.log(i, animals[i]);
+// for (let i = animals.length - 1; i >= 0; i--) {
+//     console.log(i, animals[i]);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`iは${i}`)
+//     for (let j = 1; j <= 4; j++) {
+//         console.log(` jは${j}`)
+//     }
+// }
+
+const seatingChart = [
+    ['伊藤', '松本', '鈴木'],
+    ['井上', '田中', '河野', '吉田'],
+    ['安倍', '後藤', '橋本']
+];
+
+for (let i = 0; i < seatingChart.length; i++) {
+    const row = seatingChart[i];
+    for (let j = 0; j < row.length; j++) {
+        console.log(row[j])
+    }
 }
