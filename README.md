@@ -40,4 +40,5 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ### 20231223  
 ・繰り返し処理  
 ・関数入門  
-　計137分
+・続：関数  
+　計203分
