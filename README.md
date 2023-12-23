@@ -37,3 +37,7 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・JavaScriptの配列  
 ・JavaScriptのオブジェクト  
 　計92分  
+### 20231223  
+・繰り返し処理  
+・関数入門  
+　計137分
