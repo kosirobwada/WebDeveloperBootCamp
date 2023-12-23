@@ -20,7 +20,7 @@ while (instruct !== 'quit') {
     }
     if (instruct === 'delete') {
         let content = parseInt(prompt('削除するものを番号してください。'))
-        todo.splice(todo, content)
+        todo.splice(content, 1)
         console.log(`${content}を削除しました。`)
     }
     instruct = prompt('コマンドを入力して下さい。(new,quit,list,delete)');
