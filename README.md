@@ -41,4 +41,8 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・繰り返し処理  
 ・関数入門  
 ・続：関数  
-　計203分
+　計203分  
+### 20231225  
+・モダンなJavaScriptの機能  
+・配列のコールバックを使ったメソッド  
+　計105分  
