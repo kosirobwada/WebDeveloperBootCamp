@@ -1,25 +1,61 @@
-const tweetForm = document.querySelector('#tweetForm');
-const tweetsContainer = document.querySelector('#tweets');
+// const tweetForm = document.querySelector('#tweetForm');
+// const tweetsContainer = document.querySelector('#tweets');
+
+// tweetForm.addEventListener('submit', function (e) {
+//     e.preventDefault();
+//     // const usernameInput = document.querySelectorAll('input')[0];
+//     // const tweetInput = document.querySelectorAll('input')[1];
+
+//     const usernameInput = tweetForm.elements.username;
+//     const tweetInput = tweetForm.elements.tweet;
+//     addTweet(usernameInput.value, tweetInput.value);
+
+//     usernameInput.value = '';
+//     tweetInput.value = '';
+//     // console.log('submit!!');
+// })
+
+// const addTweet = (username, tweet) => {
+//     const newTweet = document.createElement('li');
+//     const bTag = document.createElement('b');
+//     bTag.append(username);
+//     newTweet.append(bTag);
+//     newTweet.append(` - ${tweet}`);
+//     tweetsContainer.append(newTweet);
+// }
+
+const tweetForm = document.querySelector('#tweetForm')
+const tweetsContainer = document.querySelector('#tweets')
 
 tweetForm.addEventListener('submit', function (e) {
-    e.preventDefault();
+    e.preventDefault()
+    // alert('submit')
     // const usernameInput = document.querySelectorAll('input')[0];
     // const tweetInput = document.querySelectorAll('input')[1];
+    // console.log(usernameInput.value)
+    // console.log(tweetInput.value)
 
-    const usernameInput = tweetForm.elements.username;
-    const tweetInput = tweetForm.elements.tweet;
-    addTweet(usernameInput.value, tweetInput.value);
+    // console.log(tweetForm.elements.username)
+
+    const usernameInput = tweetForm.elements.username
+    const tweetInput = tweetForm.elements.tweet
+
+    addTweet(usernameInput.value, tweetInput.value)
 
     usernameInput.value = '';
     tweetInput.value = '';
-    // console.log('submit!!');
 })
 
 const addTweet = (username, tweet) => {
-    const newTweet = document.createElement('li');
-    const bTag = document.createElement('b');
-    bTag.append(username);
-    newTweet.append(bTag);
-    newTweet.append(` - ${tweet}`);
-    tweetsContainer.append(newTweet);
+    const newTweet = document.createElement('li')
+    const bTag = document.createElement('b')
+
+    bTag.append(username)
+    newTweet.append(bTag)
+
+    newTweet.append(` - ${tweet}`)
+    // console.log(username)
+
+    tweetsContainer.append(newTweet)
+    // console.log(newTweet)
 }
