@@ -1,3 +1,10 @@
+// const lis = document.querySelectorAll('li')
+// for (let li of lis) {
+//     li.addEventListener('click', function () {
+//         li.remove()
+//     })
+// }
+
 const tweetForm = document.querySelector('#tweetForm');
 const tweetsContainer = document.querySelector('#tweets');
 
@@ -20,15 +27,29 @@ const addTweet = (username, tweet) => {
     tweetsContainer.append(newTweet);
 }
 
-tweetsContainer.addEventListener('click', function (e) {
-    // if (e.target.nodeName === 'LI') {
-    //     e.target.remove();
-    // } else if (e.target.nodeName === 'B') {
-    //     e.target.parentElement.remove();
-    // }
-    // e.target.nodeName === 'LI' && e.target.remove();
+// tweetsContainer.addEventListener('click', function (e) {
+//     // if (e.target.nodeName === 'LI') {
+//     //     e.target.remove();
+//     // } else if (e.target.nodeName === 'B') {
+//     //     e.target.parentElement.remove();
+//     // }
+//     // e.target.nodeName === 'LI' && e.target.remove();
 
-    if (e.target.nodeName === 'LI' || e.target.nodeName === 'B') {
-        e.target.closest('LI').remove();
+//     if (e.target.nodeName === 'LI' || e.target.nodeName === 'B') {
+//         e.target.closest('LI').remove();
+//     }
+// })
+
+tweetsContainer.addEventListener('click', function (e) {
+    // console.log('UL内クリック')
+    // console.log(e)
+    // e.target.remove()
+
+    // console.dir(e.target)
+    if (e.target.nodeName === 'LI') {
+        e.target.remove()
+    }
+    else if (e.target.nodeName === 'B') {
+        e.target.parentElement.remove()
     }
 })
