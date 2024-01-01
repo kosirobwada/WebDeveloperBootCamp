@@ -1,7 +1,13 @@
+// function Color(r, g, b) {
+// 	this.r = r;
+// 	this.g = g;
+// 	this.b = b;
+// }
+
 function Color(r, g, b) {
-	this.r = r;
-	this.g = g;
-	this.b = b;
+	this.r = r
+	this.b = b
+	this.g = g
 }
 
 Color.prototype.rgb = function () {
@@ -9,7 +15,7 @@ Color.prototype.rgb = function () {
 	return `rgb(${r}, ${g}, ${b})`;
 }
 
-Color.prototype.rgba = function(a = 1.0) {
+Color.prototype.rgba = function (a = 1.0) {
 	const { r, g, b } = this;
 	return `rgba(${r}, ${g}, ${b}, ${a})`;
 }
