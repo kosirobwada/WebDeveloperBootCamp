@@ -46,11 +46,14 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・モダンなJavaScriptの機能  
 ・配列のコールバックを使ったメソッド  
 　計105分  
-### 20231216  
+### 20231226  
 ・DOM入門  
 ・DOMイベント  
 ・卓球得点表  
 　計272分 
-### 20231217  
+### 20231227  
 ・非同期なJavaSctipt!  
 　計113分  
+### 20240101  
+・AJAXとAPI  
+　計120分  
