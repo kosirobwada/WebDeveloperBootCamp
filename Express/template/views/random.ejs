@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+</head>
+
+<body>
+    <h1>
+        <!-- <%=Math.floor(Math.random() * 10)+1%> -->
+        <%= rand %>
+    </h1>
+    <% if(rand % 2===0){%>
+        <h2>偶数だよ！</h2>
+        <% } else {%>
+            <h2>奇数だよ！</h2>
+            <% } %>
+                <h3>
+                    <%= rand % 2===0 ? '偶数' : '奇数' %>
+                </h3>
+</body>
+
+</html>
