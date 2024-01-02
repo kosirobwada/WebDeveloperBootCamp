@@ -57,3 +57,11 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ### 20240101  
 ・AJAXとAPI  
 　計120分  
+### 20240102  
+・ターミナルを使いこなそう  
+・Node.js入門  
+・モジュールとnpm  
+・Express入門  
+・テンプレートを使った動的なHTML  
+　計336分  
+ 
