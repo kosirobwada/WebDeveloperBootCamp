@@ -2,6 +2,8 @@
 
 Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-bootcamp-2021-japan/)の学習記録です。
 
+このコースは70時間近くに及ぶコンテンツで構成されていて、Web開発について学びたければ、このコース一本でフロントエンドからバックエンド、セキュリティからアプリのデプロイまで網羅しています！HTML/CSS/JavaScript/Node.js/Express/MongoDBなどについて学びます！  
+
 ## 学習記録
 
 ### 20231213
