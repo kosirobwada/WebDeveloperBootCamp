@@ -1,0 +1,12 @@
+<%- include('partials/head') %>
+
+<%- include('partials/navbar') %>
+<h1>ランダムな値：<%= num %></h1>
+<% if (num % 2 === 0) { %>
+    <h2>偶数だよ！！！！</h2>
+<% } else { %>
+    <h2>奇数だよ！！！！</h2>
+<% } %>
+<h3><%= num % 2 === 0 ? '偶数' : '奇数' %></h3>
+
+<%- include('partials/footer') %>
