@@ -66,4 +66,6 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 ・Express入門  
 ・テンプレートを使った動的なHTML  
 　計336分  
- 
+### 20240103  
+・RESTの基本  
+　計88分  
