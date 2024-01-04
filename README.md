@@ -68,4 +68,8 @@ Udemyの[Web Developer BootCamp](https://www.udemy.com/course/the-web-developer-
 　計336分  
 ### 20240103  
 ・RESTの基本  
+　計118分  
+### 20240104  
+・MongoDBの基本  
 　計88分  
+
