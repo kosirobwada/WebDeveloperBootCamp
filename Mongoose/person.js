@@ -16,6 +16,16 @@ personSchema.virtual('fullName').get(function () {
     return `${this.first} ${this.last}`
 })
 
+personSchema.pre('save', async function () {
+    this.first = 'hoge'
+    this.last = 'moge'
+    console.log('save now')
+})
+
+personSchema.post('save', async function () {
+    console.log('save was')
+})
+
 const Person = mongoose.model('Person', personSchema)
 
 // Now you can create an instance of the Person model
